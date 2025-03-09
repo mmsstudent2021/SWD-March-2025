@@ -1,30 +1,111 @@
-<form action="">
-  <table>
-    <tr>
-      <td>
-        <label for="name">User Name</label>
-      </td>
-      <td>
-        <input id="name" type="text" />
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <label for="email">Email</label>
-      </td>
-      <td>
-        <input id="email" type="email" />
-      </td>
-    </tr>
-
-    <tr>
+<form action="https://mms-it.com">
+  <fieldset>
+    <legend>Register</legend>
+    <table>
+      <tr>
+        <td>
+          <label for="name">User Name</label>
+        </td>
+        <td>
+          <input name="aa" id="name" type="text" placeholder="su su" autofocus />
+        </td>
+      </tr>
+  
+      <tr>
+        <td>
+          <label for="email">Email</label>
+        </td>
+        <td>
+          <input
+          
+            name="email"
+            id="email"
+            type="email"
+            placeholder="susu@gmail.com"
+          />
+        </td>
+      </tr>
+  
+      <tr>
         <td>
           <label for="password">Password</label>
         </td>
         <td>
-          <input id="password" type="password" />
+          <input name="password" id="password" type="password" />
         </td>
       </tr>
-  </table>
+  
+      <tr>
+        <td>
+          <label for="salary">Salary</label>
+        </td>
+        <td>
+          <input name="salary" id="salary" type="number" />
+        </td>
+      </tr>
+  
+      <!-- radio  -->
+      <tr>
+        <td>
+          <label>Gender</label>
+        </td>
+        <td>
+          <input name="gender" value="male" id="male" type="radio" required />
+          <label for="male">Male</label>
+  
+          <input name="gender" value="female" id="female" type="radio"/>
+          <label for="female">Female</label>
+  
+          <input name="gender" value="other" id="other" type="radio" />
+          <label for="other">Other</label>
+        </td>
+      </tr>
+  
+      <!-- checkbox html css js  -->
+       <tr>
+        <td>
+          <label for="">Skills</label>
+        </td>
+        <td>
+          <input name="skill" value="html" id="html" type="checkbox">
+          <label for="html">HTML</label>
+  
+          <input name="skill" value="css" id="css" type="checkbox">
+          <label for="css">CSS</label>
+  
+          <input name="skill" value="js" id="js" type="checkbox">
+          <label for="js">JS</label>
+        </td>
+       </tr>
+  
+       <!-- select  -->
+        <tr>
+          <td>
+            <label for="nation">Nationality</label>
+          </td>
+          <td>
+            <select name="nation" id="nation" required>
+              <option selected value="">Select Nation</option>
+              <option value="mm">myanmar</option>
+              <option value="jp">japan</option>
+              <option value="kr">korea</option>
+            </select>
+          </td>
+        </tr>
+  
+        <!-- text area  -->
+         <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <Textarea cols="20" rows="5"></Textarea>
+          </td>
+         </tr>
+    </table>
+    <!-- submit  -->
+    <button>Register</button>
+    <button type="reset">reset</button>
+    <button type="button">test</button>
+  </fieldset>
 </form>
