@@ -1,0 +1,18 @@
+/* tag selector */
+/* ul{
+    background-color: gray;
+} */
+
+/* class selector => . */
+.fruit{
+    color: orange;
+}
+
+.eletronic{
+    color: blue;
+}
+
+/* id selector => #  */
+#list{
+    background-color: gray;
+}

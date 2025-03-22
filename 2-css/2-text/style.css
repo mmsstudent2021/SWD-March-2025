@@ -1,0 +1,43 @@
+/* text-align => center,right,left,justify */
+/* text-decoration => none,overline,underline,line-through */
+/* text-transform => uppercase,lowercase,capitalize  */
+/* letter-spacing => 20px */
+/* word-spacing => 20px */
+/* line-height => 20px  */
+/* white-space => nowrap  */
+
+/* font-family: "Blackadder ITC"; */
+/* font-style: italic; */
+/* font-size: 50px; */
+/* font-weight: bold; */
+
+.text {
+  color: red;
+  background-color: pink;
+  /* text-align: center; */
+  /* text-align: right; */
+  /* text-align: left; */
+}
+
+p {
+  /* text-align: justify; */
+  /* word-spacing: 30px; */
+  /* line-height: 50px; */
+  /* white-space: nowrap; */
+  font-family: "Blackadder ITC";
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  /* text-decoration: line-through; */
+  /* text-transform: uppercase; */
+  /* letter-spacing: 100px; */
+  /* word-spacing: 100px; */
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
