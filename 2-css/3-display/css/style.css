@@ -1,0 +1,21 @@
+.block{
+    background-color: lightblue;
+    display: block;
+    width: 500px;
+}
+
+.inline{
+    background-color: lightcoral;
+    display: inline;
+    width: 500px;
+}
+
+.inline-block{
+    background-color: lightgreen;
+    display: inline-block;
+    width: 400px;
+}
+
+i{
+    display: block;
+}

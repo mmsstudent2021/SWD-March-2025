@@ -1,0 +1,33 @@
+.box-1{
+    background-color: gray;
+    height: 500vh;
+    background-image: url("../assets-main/images/poe-mamhe-thar-2.jpg");
+    background-repeat: no-repeat;
+    /* cover, contain, width height  */
+    background-size: auto 200px ;
+    /* top,right,bottom,left, | left top,left bottom, | left 50px top 50px  */
+    background-position: left 50px top 50px ; 
+    background-attachment: fixed;
+}
+
+.box-2{
+    background-color: lightblue;
+    height: 500px;
+    background-image: url("../assets-main/images/love.gif"), url("../assets-main/images/tree-evergreen-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: 100px, auto 500px ;
+    background-position: left 500px bottom, center;
+}
+
+.box-3{
+    height: 500px;
+    /* background-color: gray; */
+    /* linear-gradient => (position, colors) */
+    /* background-image: linear-gradient(to bottom,pink,blue,yellow); */
+
+    /* radial-gradient => (color percent) */
+    /* background-image: radial-gradient(pink 50%,blue ,green); */
+
+    /* conic-gradient => (color deg) */
+    /* background-image: conic-gradient(pink 50deg,blue,green); */
+}
