@@ -1,0 +1,84 @@
+.border{
+    width: 300px;
+    height: 100px;
+    /* border: 10px solid black; */
+
+    /* border-width: 10px;
+    border-style: double;
+    border-color: red; */
+
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: red;
+    /* border-right-width: 10px;
+    border-right-style: solid;
+    border-right-color: red; */
+
+    /* top right bottom left  */
+    border-width: 10px 5px 10px 5px;
+    border-style: solid dashed double dotted;
+    border-color: pink blue orange black;
+
+    /* top bottom , left right  */
+    border-width: 20px 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.padding{
+    border: 2px solid black;
+    /* top right bottom left */
+    /* padding: 50px 30px 50px 30px; */
+
+    /* top bottom , left right  */
+    padding: 100px 50px;
+}
+
+.margin{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.margin-auto{
+    border: 1px solid black;
+    width: 300px;
+    /* margin-left: auto; */
+    margin: 50px auto;
+}
+
+.heading{
+    border: 1px solid black;
+}
+
+.box-sizing{
+    width: 300px;
+    height: 100px;
+    border: 10px solid black;
+    padding: 16px;
+    text-align: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.box-shadow{
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 16px;
+    text-align: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+    /* x y blur spread color */
+    box-shadow: inset -15px -15px 10px 1px gray;
+    text-shadow: 4px 4px 5px gray;
+}
+
+.example{
+    width: 300px;
+    height: 100px;
+    /* box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; */
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; */
+    /* background-image: linear-gradient(45deg, hsl(295,76%,65%) 0%, hsl(295,76%,65%) 12.5%,hsl(340,76%,65%) 12.5%, hsl(340,76%,65%) 25%,hsl(25,76%,65%) 25%, hsl(25,76%,65%) 37.5%,hsl(70,76%,65%) 37.5%, hsl(70,76%,65%) 50%,hsl(115,76%,65%) 50%, hsl(115,76%,65%) 62.5%,hsl(160,76%,65%) 62.5%, hsl(160,76%,65%) 75%,hsl(205,76%,65%) 75%, hsl(205,76%,65%) 87.5%,hsl(250,76%,65%) 87.5%, hsl(250,76%,65%) 100%); */
+    background-image: repeating-linear-gradient(45deg, rgba(226, 226, 226,0.06) 0px, rgba(226, 226, 226,0.06) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+}

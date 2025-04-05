@@ -1,0 +1,18 @@
+.button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    /* transition: 500ms; */
+    user-select: none;
+}
+
+.button:hover{
+    background-color: lightblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button:active{
+    color: red;
+    background-color: lightpink;
+}
+
