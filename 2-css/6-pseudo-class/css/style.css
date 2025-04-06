@@ -2,7 +2,7 @@
     width: 200px;
     height: 50px;
     border: 2px solid black;
-    /* transition: 500ms; */
+    transition: 500ms;
     user-select: none;
 }
 
@@ -16,3 +16,14 @@
     background-color: lightpink;
 }
 
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: orange;
+}
+
+input:focus{
+    background-color: lightblue;
+}
