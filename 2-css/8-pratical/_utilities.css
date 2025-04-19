@@ -1,0 +1,12 @@
+/* rounded and pill button  */
+.rounded{
+    border-radius: 6px;
+}
+
+.rounded-full{
+    border-radius: 100px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}

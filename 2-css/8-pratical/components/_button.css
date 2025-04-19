@@ -1,0 +1,54 @@
+.btn{
+    padding: 0px 20px;
+    height: 32px;
+    line-height: 32px;
+    color: white;
+    margin-right: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* solid or fill button  */
+.btn-blue{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.btn-pink{
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+/* outline button  */
+.btn-outline-blue{
+    color: var(--blue);
+    background-color: transparent;
+    border-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.btn-outline-pink{
+    color: var(--pink);
+    background-color: transparent;
+    border: 1px solid var(--pink);
+}
+
+
+
+.icon-btn{
+    width: 48px;
+    height: 48px;
+    padding: 0;
+}
+
+i{
+    font-size: 16px;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 60px 40px;
+    margin: 50px;
+    width: 523px;
+    border-radius: 20px;
+}
