@@ -10,3 +10,15 @@
 .mb-32{
     margin-bottom: 32px;
 }
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}

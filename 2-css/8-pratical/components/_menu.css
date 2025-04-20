@@ -1,0 +1,26 @@
+.list-menu{
+    border: 1px solid black;
+    list-style: none;
+    width: 240px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.list-menu-item{
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.list-menu-item:last-child{
+    border-bottom: none;
+}
+
+.list-menu.horizontal{
+    width: 300px;
+}
+
+.list-menu.horizontal .list-menu-item{
+    display: inline-block;
+    border-bottom: none;
+}

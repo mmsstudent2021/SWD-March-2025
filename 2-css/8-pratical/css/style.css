@@ -1,19 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url("../_variable.css");
+
 @import url("../_global.css");
+
 @import url("../_utilities.css");
+
 @import url("../components/_button.css");
 @import url("../components/_text.css");
-/* @import "../"; */
+@import url("../components/_table.css");
+@import url("../components/_list.css");
+@import url("../components/_menu.css");
 
 
+/* utilities class => mb-32 */
+/* .mb-32{
+    margin-bottom: 32px;
+} */
 
 
-
-
-
-/* variable */
-/* global */
-/* utilities */
-/* component  */
+/* component => btn ui pya */

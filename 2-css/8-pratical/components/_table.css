@@ -1,0 +1,40 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* combinator selector => descendant  */
+.table th, .table td{
+    border: 1px solid black;
+    padding: 16px;
+}
+
+
+.table-blue th, .table-blue td{
+    border: 1px solid var(--blue);
+}
+
+.table-blue thead tr{
+    background-color: var(--blue);
+    color: white;
+}
+
+.table-pink th, .table-pink td{
+    border: 1px solid var(--pink);
+}
+
+.table-pink thead tr{
+    background-color: var(--pink);
+    color: white;
+}
+
+.table-pink.table-hover tbody tr:hover{
+    background-color: rgb(242, 214, 219);
+}
+
+/* :first-child
+:last-child
+:nth-child => number, odd, even */
+.table-strip tbody tr:nth-child(odd){
+    background-color: rgb(229, 229, 245);
+}
