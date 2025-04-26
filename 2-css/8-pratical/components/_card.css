@@ -1,0 +1,94 @@
+.card{
+    width: 488px;
+    border: 1px solid #9CA3AF;
+    padding: 24px;
+}
+
+.card-title{
+    color: #111928;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-para{
+    color: #6B7280;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pd-card{
+    width: 384px;
+    border: 1px solid #9CA3AF;
+    overflow: hidden;
+}
+
+.pd-title{
+    color: #111928;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.pd-list{
+    border: 2px solid #374151;
+    list-style-type: none;
+}
+
+.pd-list-item{
+    padding: 10px 16px;
+    border-bottom: 2px solid #374151;
+    color: #111928;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pd-list-item:last-child{
+    border-bottom: none;
+}
+
+.pd-para{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rating{
+    border-bottom: 2px solid black;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.rating .stars{
+    color: gold;
+    display: inline;
+    margin-right: 16px;
+}
+
+.rating .rate{
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.price span{
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+.pd-btn{
+    background-color: #111928;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding: 13px 0px;
+    border: none;
+    height: 50px;
+}

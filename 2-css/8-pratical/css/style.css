@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
 @import url("../_variable.css");
 
 @import url("../_global.css");
@@ -11,6 +13,7 @@
 @import url("../components/_table.css");
 @import url("../components/_list.css");
 @import url("../components/_menu.css");
+@import url("../components/_card.css");
 
 
 /* utilities class => mb-32 */

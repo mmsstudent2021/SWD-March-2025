@@ -11,6 +11,14 @@
     margin-bottom: 32px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
 .text-left{
     text-align: left;
 }
