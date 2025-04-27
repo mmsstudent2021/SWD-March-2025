@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <main>
+        <!-- <h1 class="heading">Register Form</h1> -->
+
+        <div class="form">
+            <h1 class="form-heading">Student Register</h1>
+
+            <form action="">
+                <div class="input-group">
+                    <label class="input-lable" for="name">Your Name</label>
+                    <input class="input" type="text" name="name" id="name" placeholder="eg. Kyaw Kyaw">
+                </div>
+
+                <div class="input-group">
+                    <label class="input-lable" for="nation">Nationality</label>
+                    <select class="select" name="nation" id="nation">
+                        <option value="mm">Myanmar</option>
+                        <option value="kr">korea</option>
+                        <option value="jp">japan</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-lable" for="nation">Your Current Skill</label>
+                   
+                    <div>
+                        <input class="checkbox" type="checkbox" name="skill" id="html">
+                        <label class="checkbox-label" for="html">HTML</label>
+                    </div>
+
+                    <div>
+                        <input class="checkbox" type="checkbox" name="skill" id="css">
+                        <label class="checkbox-label" for="css">Css</label>
+                    </div>
+
+                    <div>
+                        <input class="checkbox" type="checkbox" name="skill" id="js">
+                        <label class="checkbox-label" for="js">Javascript</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-lable" for="email">Your Email</label>
+                    <input class="input" type="email" name="name" id="email" placeholder="eg. KyawKyaw@gmail.com">
+                </div>
+
+                <div class="input-group">
+                    <label class="input-lable" for="password">Password</label>
+                    <input class="input" type="password" name="name" id="password" >
+                </div>
+
+                <button class="btn-dark">Register</button>
+            </form>
+        </div>
+      
+    </main>
+</body>
+</html>

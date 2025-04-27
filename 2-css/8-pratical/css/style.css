@@ -14,6 +14,7 @@
 @import url("../components/_list.css");
 @import url("../components/_menu.css");
 @import url("../components/_card.css");
+@import url("../components/_form.css");
 
 
 /* utilities class => mb-32 */
@@ -23,3 +24,8 @@
 
 
 /* component => btn ui pya */
+
+/* component/card.css => css/style.css => html file */
+
+/* <!-- .parent .child -->
+<!-- .class,.class  --> */
