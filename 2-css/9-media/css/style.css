@@ -1,0 +1,49 @@
+.heading{
+    font-size: 20px;
+    color: blue;
+}
+
+/* max width => px a htet  */
+
+@media screen and (max-width: 600px) {
+    .heading{
+        font-size: 50px;
+        color: red;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .heading{
+        font-size: 20px;
+        color: blue;
+    }
+}
+
+/* min width => px out  */
+@media screen and (min-width: 400px) {
+    .heading{
+        font-size: 50px;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .heading{
+        font-size: 90px;
+        color: orange;
+    }
+}
+
+.print-text{
+    display: none;
+}
+
+@media print{
+    .print-text{
+        display: block;
+    }
+}
+
+h1{
+    color: yellow !important;
+}

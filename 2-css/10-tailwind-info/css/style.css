@@ -1,0 +1,42 @@
+/* component  */
+.btn-dark{
+    padding: 6px 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* utilities  */
+.pt-6{
+    padding-top: 6px;
+}
+
+.pb-6{
+    padding-bottom: 6px;
+}
+
+.pr-16{
+    padding-right: 16px;
+}
+
+.pl-16{
+    padding-left: 16px;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.border-black{
+    border: 1px solid black;
+}
+
+.text-white{
+    color: white;
+}
+
+.rounded{
+    border-radius: 20px;
+}
