@@ -3,7 +3,7 @@
     color: blue;
 }
 
-/* max width => px a htet  */
+/* max width => px out  */
 
 @media screen and (max-width: 600px) {
     .heading{
@@ -19,7 +19,7 @@
     }
 }
 
-/* min width => px out  */
+/* min width => px a htet  */
 @media screen and (min-width: 400px) {
     .heading{
         font-size: 50px;

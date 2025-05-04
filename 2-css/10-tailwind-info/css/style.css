@@ -1,42 +1,35 @@
-/* component  */
+/* component class */
 .btn-dark{
-    padding: 6px 16px;
     background-color: black;
     color: white;
     border: 1px solid black;
-    border-radius: 20px;
-    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
 }
 
-/* utilities  */
-.pt-6{
-    padding-top: 6px;
-}
-
-.pb-6{
-    padding-bottom: 6px;
-}
-
-.pr-16{
-    padding-right: 16px;
-}
-
-.pl-16{
-    padding-left: 16px;
-}
-
-.bg-black{
+/* utilities class */
+.bg-dark{
     background-color: black;
-}
-
-.border-black{
-    border: 1px solid black;
 }
 
 .text-white{
     color: white;
 }
 
-.rounded{
-    border-radius: 20px;
+.border-black{
+    border: 1px solid black;
 }
+
+.w-100{
+    width: 100px;
+}
+
+.h-40{
+    height: 40px;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
