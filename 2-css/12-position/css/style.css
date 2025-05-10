@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 2px solid red; */
+    height: 500vh;
+}
+
+/* static => default a nay a htr */
+.box-1{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-1{
+    position: static;
+}
+
+.para-1{
+    position: static;
+}
+
+/* relative  */
+/* 1 => thu nay yar ka nay top,right,bottom,left move lox ya  */
+/* 2 => z index nat a paw out pay lox ya */
+.box-2{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-2{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.para-2{
+    position: relative;
+    /* left: 50px; */
+    /* z-index: 3; */
+}
+
+/* absolute */
+/* 1 => layer ta khu paw yout twr tl | out ka element tat lr */
+/* 2 => top right bottom left browser ko parent u pee move tl */
+/* 3 => z index nat a paw out pay lox ya  */
+/* 4 => parent element hmr relative nat pate pee use lox ya */
+.box-3{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.img-3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.para-3{
+    
+}
+
+/* fixed  */
+/* 1 => layer ta khu paw yout twr tl | out ka element tat lr */
+/* 2 => thu nay yar ka nay kat(fixed) kyan */
+/* 3 => top right bottom left browser ko kyi pee move */
+/* 4 => z index nat a paw out pay lox ya */
+.box-4{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-4{
+    position: fixed;
+    left: 50px;
+}
+
+.para-4{
+    
+}
+
+/* sticky  */
+/* 1 => top browser px ko kyi pee hma kat(fixed) */
+/* 2 => z index nat a paw out pay lox ya */
+.box-5{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.img-5{
+   position: sticky;
+   top: 20px;
+}
+
+.para-5{
+    
+}
+
+.box-6{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+    position: relative;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 100%;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+}
