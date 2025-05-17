@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    perspective: 1000px;
+}
+
+.img1{
+    /* 2D => translate(x,y), rotate(deg), scaleX Y 1, skew X Y (deg) */
+
+    /* transform: translate(30px,30px);
+    transform: translateX(30px) translateY(30px);
+    translate: 30px 50px; */
+
+    /* transform: rotate(20deg); */
+
+    /* transform: scale(1.5); */
+    /* transform: scaleY(0.5); */
+
+    /* transform: skew(20deg);
+    transform: skewY(20deg); */
+
+    /* 3D => translateZ, rotateX Y (deg), transform origin x y */
+    /* transform: translateZ(20px); */
+    /* transform: rotateX(20deg);
+    transform: rotateY(20deg); */
+
+    /* transform-origin: x , y ; */
+    /* transform-origin: 100% 0; */
+
+    /* transition => duration (a twin), delay (waiting time), timing-function (linear,ease-in....) */
+    transform: translateX(-100%);
+    /* transition: 2000ms; */
+    transition-duration: 2000ms;
+    /* transition-delay: 2000ms; */
+    /* transition-timing-function: steps(5); */
+    transition-timing-function: ease-in;
+    transition-property: all;
+}
+
+/* .img1:hover{
+    transform: translateX(0);
+    filter: blur(2px);
+    filter: grayscale();
+} */
+
+.box:hover .img1{
+    transform: translateX(0);
+    /* filter: blur(2px); */
+    filter: grayscale();
+}
