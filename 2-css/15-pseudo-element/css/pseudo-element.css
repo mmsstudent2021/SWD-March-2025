@@ -1,0 +1,29 @@
+.obj::before{
+    content: "min ";
+    background-color: pink;
+}
+
+.obj::after{
+    content: "par";
+    background-color: lightblue;
+}
+
+.para::first-letter{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+/* .para .special{
+    font-size: 80px;
+    font-weight: bold;
+} */
+
+.para::first-line{
+    background-color: orange;
+}
+
+.para::selection{
+    background-color: lightgreen;
+    color: red;
+}

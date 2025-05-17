@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+.sq1{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+}
+
+.sq2{
+    border: 60px solid #4873D9;
+    display: inline-block;
+}
+
+.sq3{
+    padding: 60px;
+    background-color: #4873D9;
+    display: inline-block;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-radius: 60px;
+}
+
+.d{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-radius: 0px 60px 60px 0px;
+}
+
+.drop{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-radius: 0px 60px 60px 60px;
+}
+
+.leaf{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-radius: 0px 60px 0px 60px;
+}
+
+.dash-sq{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border: 5px dashed black;
+}
+
+.dash-circle{
+    width: 120px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-radius: 60px;
+    border: 5px dashed black;
+}
+
+.border-left-sq{
+    padding-left: 10px;
+    width: 300px;
+    height: 120px;
+    background-color: #4873D9;
+    display: inline-block;
+    border-left: 5px solid black;
+}
+
+.triangle{
+    border: 60px solid black;
+    border-top-color: yellow;
+    border-right-color: red;
+    border-bottom-color: orange;
+    border-left-color: green;
+    display: inline-block;
+}
+
+.top-triangle{
+    border: 60px solid transparent;
+    border-bottom-color: orange;
+    display: inline-block;
+}
+
+.bottom-triangle{
+    border: 60px solid transparent;
+    border-top-color: orange;
+    display: inline-block;
+}
+
+
+.right-triangle{
+    border: 60px solid transparent;
+    border-right-color: orange;
+    display: inline-block;
+}
+
+.left-triangle{
+    border: 60px solid transparent;
+    border-left-color: orange;
+    display: inline-block;
+}
+
+/* .right-triangle{
+    border-right: 120px solid orange;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left-width: 0;
+    display: inline-block;
+} */
+
+.price-tag{
+    padding: 0px 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4873D9;
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.price-tag::before{
+    content: "";
+    border: 30px solid transparent;
+    border-right-color: #4873D9 ;
+    position: absolute;
+    left: -59px;
+}
+
+.price-tag::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 0px;
+    top: 27px;
+    border: 2px solid rgb(183, 182, 182);
+}
+
+.ribbon{
+    position: relative;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+    display: inline-block;
+
+}
+
+.rec{
+    padding: 0px 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4873D9;
+    display: inline-block;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.sql{
+    border: 30px solid #9AB2EB;
+    border-left-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: -55px;
+    top: 5px;
+}
+
+.sqr{
+    border: 30px solid #9AB2EB;
+    border-right-color: transparent;
+    display: inline-block;
+    position: absolute;
+    right: -55px;
+    top: 5px;
+}
+
+.rec::before{
+    content: "";
+    border: 2.4px solid transparent;
+    border-top-color: #25355C;
+    border-right-color: #25355C;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.rec::after{
+    content: "";
+    border: 2.4px solid transparent;
+    border-top-color: #25355C;
+    border-left-color: #25355C;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+img{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
