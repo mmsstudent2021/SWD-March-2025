@@ -31,3 +31,30 @@
     /* conic-gradient => (color deg) */
     /* background-image: conic-gradient(pink 50deg,blue,green); */
 }
+
+.box-4{
+    border: 10px solid rgba(0, 0, 0, 0.54);
+    height: 500px;
+    padding: 80px;
+    background-image: url("../assets-main/images/poe-mamhe-thar-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    /* background origin => background image ko bl ner ka nay sa u ma ll */
+    /* border-box, paddign-box, content-box  */
+    /* background-origin: content-box; */
+    
+    /* background clip => background image yaw color yaw 2khu lone */
+    background-color: lightblue;
+    background-clip: content-box;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    /* background-image: url("../assets-main/images/poe-mamhe-thar-3.jpeg"); */
+
+    /* clip => text nay yar ka nay background u */
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(red, yellow, green);
+}

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+}
+
 main{
     margin: 50px;
 }
@@ -19,23 +23,48 @@ main{
     border: 1px solid black;
     padding: 30px;
     margin: 30px;
-    animation-name: slideLeft;
+    /* animation-name: slideLeft;
     animation-duration: 2000ms;
-    animation-fill-mode: both;
+    animation-fill-mode: both; */
+    background-color: lightblue;
 }
 
 .box:nth-child(1){
     /* animation-duration: 1000ms; */
-    animation-delay: 0;
+    /* animation-delay: 0; */
 }
 
 .box:nth-child(2){
     /* animation-duration: 2000ms; */
-    animation-delay: 1000ms;
+    /* animation-delay: 1000ms; */
 }
 
 .box:nth-child(3){
     /* animation-duration: 3000ms; */
+    /* animation-delay: 2000ms; */
+}
+
+.duration-1000{
+    animation-duration: 1000ms;
+}
+
+.duration-2000{
+    animation-duration: 2000ms;
+}
+
+.duration-3000{
+    animation-duration: 3000ms;
+}
+
+.delay-0{
+    animation-delay: 0ms;
+}
+
+.delay-1000{
+    animation-delay: 1000ms;
+}
+
+.delay-2000{
     animation-delay: 2000ms;
 }
 
@@ -46,4 +75,136 @@ main{
     to{
         transform: translateX(0);
     }
+}
+
+.animation-slideLeft{
+    animation-name: slideLeft;
+    animation-fill-mode: both;
+}
+
+@keyframes slideRight {
+    from{
+        transform: translateX(300%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.animation-slideRight{
+    animation-name: slideRight;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.animation-fadeIn{
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+}
+
+@keyframes zoomIn {
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.animation-zoomIn{
+    animation-name: zoomIn;
+    animation-fill-mode: both;
+}
+
+@keyframes rotateIn {
+    from{
+        transform: rotate(45deg);
+        transform-origin: 0 100%;
+        opacity: 0;
+    }
+    to{
+        transform: rotate(0);
+        transform-origin: 0 100%;
+        opacity: 1;
+    }
+}
+
+.animation-rotateIn{
+    animation-name: rotateIn;
+    animation-fill-mode: both;
+}
+
+@keyframes slideRightOut {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200%);
+    }
+}
+
+.animation-slideRightOut{
+    animation-name: slideRightOut;
+    animation-fill-mode: both;
+}
+
+@keyframes three {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.6) translateX(0);
+    }
+    100%{
+        transform: scale(0.6) translateX(-200%);
+    }
+}
+
+.animation-three{
+    animation-name: three;
+    animation-fill-mode: both;
+}
+
+@keyframes four {
+    0%{
+        transform: scale(1);
+        opacity: 0;
+    }
+    30%{
+        transform: scale(0.6) rotate(45deg);
+        opacity: 1;
+    }
+    60%{
+        transform: scale(0.6) rotate(0) translateX(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.6) rotate(0) translateX(-200%);
+        opacity: 1;
+    }
+}
+
+.animation-four{
+    animation-name: four;
+    animation-fill-mode: both;
+}
+
+.heading{
+    animation-name: slideLeft;
+    animation-duration: 1000ms;
+    /* 5 , infinite  */
+    animation-iteration-count: 5;
+    /* reverse , alternate  */
+    animation-direction: alternate;
+    /* animation-timing-function: linear; */
 }

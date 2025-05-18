@@ -64,3 +64,17 @@ monospace */
   font-size: 50px;
   color: orange;
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url("./font/Dangernight-vnZ5y.otf");
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url("./font/FlorisaPersonalUse-nRm84.otf");
+}
+
+h3{
+  font-family: mySecondFont;
+}
