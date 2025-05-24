@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+
+  --color-primary: #EA652D;
+}
+
+.custom-container{
+    @apply lg:w-[1120px] md:px-20 sm:px-10 mx-auto xl:px-0 px-8
+}
+
+.btn-primary{
+  @apply bg-primary text-white flex items-center gap-2 py-3.5 px-6 font-medium 
+}
+
+.btn-primary-outline{
+  @apply bg-transparent border border-primary text-primary flex items-center gap-2 py-3.5 px-6 font-medium
+}
+
+.input{
+  @apply border border-neutral-300 py-3.5 px-3 w-full rounded-md
+}
