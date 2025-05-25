@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="bg-[#f5f5f5]">
-    <header
-      class="flex items-center justify-between custom-container py-5 mb-20"
-    >
-      <a href="./index.html">
-        <img src="./images/logo.png" alt="" />
-      </a>
+    <header class="sticky top-0 py-5 mb-20 bg-[#f5f5f5]">
+      <nav class="flex items-center justify-between custom-container">
+        <a href="./index.html">
+          <img src="./images/logo.png" alt="" />
+        </a>
 
-      <nav>
-        <ul class="flex gap-7 items-center">
+        <!-- laptop  -->
+        <ul class="flex gap-7 items-center max-md:hidden">
           <li
             class="text-primary font-bold hover:scale-105 hover:text-primary transition-all duration-200"
           >
@@ -40,6 +39,59 @@
             <a href="./contact.html">Contact</a>
           </li>
         </ul>
+
+        <!-- mobile max-md -->
+       <input hidden class="peer" id="sidebar" type="checkbox">
+         <label for="sidebar"
+          class="hidden cursor-pointer max-md:flex border rounded-full border-neutral-200 size-9 justify-center items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu-icon lucide-menu"
+          >
+            <path d="M4 12h16" />
+            <path d="M4 18h16" />
+            <path d="M4 6h16" />
+          </svg>
+        </label>
+
+
+        <!-- mobile sidebar  -->
+        <div class=" bg-white max-md:block hidden fixed z-40 left-0 inset-y-0 w-64 transform -translate-x-full peer-checked:translate-x-0 transition-all duration-300">
+          <ul class=" gap-7 items-center ">
+            <li
+              class="text-primary font-bold hover:scale-105 hover:text-primary transition-all duration-200"
+            >
+              <a href="./index.html">Home</a>
+            </li>
+
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-200"
+            >
+              <a href="./works.html">Works</a>
+            </li>
+
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-200"
+            >
+              <a href="./about.html">About</a>
+            </li>
+
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-200"
+            >
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -47,12 +99,12 @@
       <!-- about  -->
       <section>
         <img
-          class="size-[140px] object-cover rounded-full mb-5"
+          class="size-[140px] max-md:size-[70px] object-cover rounded-full mb-5"
           src="./images/profile.jpg"
           alt=""
         />
 
-        <h1 class="text-neutral-400 text-3xl font-medium max-w-[800px] mb-5">
+        <h1 class="text-neutral-400 text-3xl max-md:text-lg font-medium max-w-[800px] mb-5">
           Hey there! I'm a product designer
           <span class="text-primary"
             >shaping ideas into sleek, functional designs</span
@@ -81,14 +133,14 @@
         </button>
       </section>
 
-      <hr class="my-20 border-b border-neutral-200" />
+      <hr class="my-20 border-b border-neutral-200 max-md:my-10" />
 
       <!-- Selected Works  -->
       <section>
         <div class="flex justify-between items-center mb-10">
           <div class="flex items-center gap-3">
             <div class="border-b w-5 h-[3px] bg-neutral-700"></div>
-            <p class="font-medium text-2xl text-neutral-700">Selected Works</p>
+            <p class="font-medium text-2xl max-md:text-base text-neutral-700">Selected Works</p>
           </div>
 
           <button class="btn-primary-outline rounded-full">
@@ -113,7 +165,7 @@
         </div>
 
         <!-- card  -->
-        <div class="grid grid-cols-3 gap-5">
+        <div class="grid grid-cols-3 max-md:grid-cols-1 gap-5">
           <div>
             <img class="rounded-xl mb-3.5" src="./images/work1.png" alt="" />
 
@@ -140,18 +192,18 @@
         </div>
       </section>
 
-      <hr class="my-20 border-b border-neutral-200" />
+      <hr class="my-20 border-b border-neutral-200 max-md:my-10" />
 
       <!-- who am i  -->
       <section>
-        <div class="flex justify-between items-center">
+        <div class="flex max-lg:flex-col justify-between items-center max-lg:items-start max-lg:gap-5">
           <div class="flex items-center gap-3">
             <div class="border-b w-5 h-[3px] bg-neutral-700"></div>
-            <p class="font-medium text-2xl text-neutral-700">Who am I?</p>
+            <p class="font-medium text-2xl max-md:text-base text-neutral-700">Who am I?</p>
           </div>
 
           <div class="max-w-[644px]">
-            <p class="text-neutral-400 text-[24px] mb-5">
+            <p class="text-neutral-400 text-[24px] max-md:text-[18px] mb-5">
               Hey, I’m a product designer based in Bangkok, working remotely.
               <span class="text-primary"
                 >I craft intuitive, aesthetically pleasing products that blend
@@ -184,18 +236,18 @@
         </div>
       </section>
 
-      <hr class="my-20 border-b border-neutral-200" />
+      <hr class="my-20 border-b border-neutral-200 max-md:my-10" />
 
       <!-- contact  -->
       <section>
-        <div class="flex justify-between items-start">
+        <div class="flex max-lg:flex-col max-lg:gap-5 justify-between items-start">
           <div class="flex items-center gap-3">
             <div class="border-b w-5 h-[3px] bg-neutral-700"></div>
-            <p class="font-medium text-2xl text-neutral-700">Contact Me</p>
+            <p class="font-medium text-2xl max-md:text-base text-neutral-700">Contact Me</p>
           </div>
 
           <div class="max-w-[644px]">
-            <h1 class="text-neutral-700 text-2xl mb-5">Send a message</h1>
+            <h1 class="text-neutral-700 text-2xl max-md:text-base mb-5">Send a message</h1>
 
             <form action="" class="">
               <input class="input mb-5" type="text" placeholder="Name" />
@@ -229,8 +281,37 @@
       </section>
     </main>
 
-    <footer class="h-[300px]">
-      <h1>footer</h1>
+    <footer class="bg-white mt-20">
+      <div class="custom-container py-20">
+        <div class=" flex justify-between items-start mb-5">
+        <div class="">
+          <img  src="./images/logo.png" alt="">
+
+          <div>
+            <p>Contact</p>
+            <p>mms-it.com</p>
+            <p>+959250152018</p>
+          </div>
+        </div>
+
+        <div class="flex justify-between gap-20">
+          <div class=" flex flex-col gap-3">
+            <p>pages</p>
+            <p>Contact</p>
+            <p>mms-it.com</p>
+            <p>+959250152018</p>
+          </div>
+          <div class=" flex flex-col gap-3">
+            <p>pages</p>
+            <p>Contact</p>
+            <p>mms-it.com</p>
+            <p>+959250152018</p>
+          </div>
+        </div>
+      </div>
+
+      <p class=" text-sm text-neutral-500 text-center"> &copy; 2025 MMS IT, All Rights Reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

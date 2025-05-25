@@ -12,13 +12,13 @@
 }
 
 .btn-primary{
-  @apply bg-primary text-white flex items-center gap-2 py-3.5 px-6 font-medium 
+  @apply bg-primary text-white flex items-center gap-2 py-3.5 px-6 font-semibold cursor-pointer hover:bg-orange-700 duration-200 active:scale-95 max-md:text-sm
 }
 
 .btn-primary-outline{
-  @apply bg-transparent border border-primary text-primary flex items-center gap-2 py-3.5 px-6 font-medium
+  @apply bg-transparent border border-primary text-primary flex items-center gap-2 py-3.5 px-6 font-semibold cursor-pointer hover:bg-primary hover:text-white duration-200 active:scale-95 max-md:text-sm
 }
 
 .input{
-  @apply border border-neutral-300 py-3.5 px-3 w-full rounded-md
+  @apply border border-neutral-300 py-3.5 px-3 max-md:py-3 w-full rounded-md
 }

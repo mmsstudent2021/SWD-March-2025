@@ -1,0 +1,15 @@
+.box-parent{
+    border: 1px solid black;
+}
+
+.box-parent:hover p{
+    color: blue;
+}
+
+#checkbox:checked ~ p{
+    color: blue;
+}
+
+#checkbox2:checked ~ p{
+    color: blue;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./test.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- parent > child  -->
+    <!-- css  -->
+    <div class="box-parent">
+      <p>hello</p>
+    </div>
+
+    <!-- tailwind -->
+    <div class="group border">
+      <p class="group-hover:text-blue-500">hello</p>
+    </div>
+
+    <!-- css  -->
+    <div>
+      <div>
+        <input id="checkbox" type="checkbox" hidden />
+        <label for="checkbox">San kyi tar</label>
+
+        <p>hello</p>
+      </div>
+
+       <div>
+        <input id="checkbox2" type="checkbox" hidden />
+        <label for="checkbox2">San kyi tar 2</label>
+
+        <p>hello two</p>
+      </div>
+
+      <p>hello</p>
+
+      <div>div pr</div>
+
+      <p>hello</p>
+    </div>
+
+    <!-- tailwind  -->
+     <div>
+        <input hidden class="peer" id="test" type="checkbox">
+        <label for="test">button</label>
+
+        <p class=" peer-checked:text-blue-500">testing</p>
+     </div>
+  </body>
+</html>
